@@ -1,0 +1,1 @@
+/home/lucia/.zshrc

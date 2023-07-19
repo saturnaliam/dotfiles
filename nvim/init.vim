@@ -1,0 +1,1 @@
+/home/lucia/.config/nvim/init.vim
