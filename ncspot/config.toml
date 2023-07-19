@@ -1,1 +1,20 @@
-/home/lucia/.config/ncspot/config.toml
+use_nerdfont = true
+
+[theme]
+background = "#2A2E38"
+primary = "#E3E3E3"
+secondary = "#DDAABF"
+title = "#F8C8DC"
+playing = "#FFC1DB"
+playing_selected = "#FF88BA"
+playing_bg = "#242830"
+highlight = "#CF5E8D"
+highlight_bg = "#171A1F"
+error = "#E3E3E3"
+error_bg = "#343946"
+statusbar = "#E3E3E3"
+statusbar_progress = "#C8F8E4"
+statusbar_bg = "#343946"
+cmdline = "#E3E3E3"
+cmdline_bg = "#343946"
+

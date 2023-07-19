@@ -1,1 +1,4 @@
-/home/lucia/.config/nvim/coc-settings.json
+{
+  "clangd.path": "/usr/bin/clangd",
+  "clangd.arguments": ["--header-insertion=never"]
+}
