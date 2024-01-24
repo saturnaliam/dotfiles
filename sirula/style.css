@@ -1,0 +1,36 @@
+* {
+  font-family: JetBrains Mono;
+  color: #CDD6F4;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+
+.app-row {
+    transition: unset;
+    padding: 5px 0 5px 10px;
+    background-color: #1E1E2E;
+}
+
+.app-row:selected {
+    background-color: #585B70;
+}
+
+.app-label {
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.app-list {
+    color: #f5e0dc;
+ }
+
+
+#search {
+    color: #CDD6F4;
+    background-color: #1E1E2E;
+    font-size: 20px;
+    padding: 2px 8px;
+    margin: 5px;
+}
