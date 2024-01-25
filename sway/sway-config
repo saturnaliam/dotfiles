@@ -25,6 +25,7 @@ set $menu sirula
 
 bindsym $mod+e+m exec "emacsclient -c -a 'emacs'"
 bindsym $mod+v+m exec "kitty nvim ~/"
+bindsym $mod+Mod1+f exec firefox
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
