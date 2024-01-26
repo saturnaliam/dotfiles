@@ -23,13 +23,17 @@ set $term kitty
 # on the original workspace that the command was run on.
 set $menu sirula
 
-bindsym $mod+e+m exec "emacsclient -c -a 'emacs'"
+smart_gaps on
+gaps inner 5px
+gaps outer 5px
+
+bindsym $mod+e exec "emacsclient -c -a 'emacs'"
 bindsym $mod+v+m exec "kitty nvim ~/"
 bindsym $mod+Mod1+f exec firefox
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg ~/Downloads/wallpaper.jpg fill
+output * bg ~/Downloads/wallpaper.png fill
 #
 # Example configuration:
 #
@@ -150,9 +154,9 @@ output * bg ~/Downloads/wallpaper.jpg fill
     bindsym $mod+v splitv
 
     # Switch the current container between different layout styles
-    bindsym $mod+s layout stacking
-    bindsym $mod+w layout tabbed
-    bindsym $mod+e layout toggle split
+    bindsym $mod+l+s layout stacking
+    bindsym $mod+l+w layout tabbed
+    bindsym $mod+l+e layout toggle split
 
     # Make the current focus fullscreen
     bindsym $mod+f fullscreen
