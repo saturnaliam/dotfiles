@@ -1,0 +1,33 @@
+#+title: Sway Keybinds
+
+* Workspace
+- mod + N: Go to workspace N
+- mod + shift + N: Move container to workspace N
+
+* Movement
+- mod + L D U R: Focus left/down/up/right
+
+* Layout
+- mod + b: Split horizontally
+- mod + v: Split vertically
+- mod + l + s: Stacking layout
+- mod + l + w: Tabbed layout
+- mod + l + e: Toggle split layout
+- mod + f: Fullscreen
+- mod + shift + space: Floating toggle
+- mod + space: Switch between tiling and floating area
+- mod + a: Focus parent
+** Resizing
+- mod + r: Enter resize mode
+- escape: Exit resize mode
+- mod + L D U R: Resize window
+
+* Misc
+- mod + g: Open terminal
+- mod + d: Open launcher
+- mod + shift + c: Reload sway configuration
+- mod + shift + e: Exit sway
+- prtsc: Screenshot
+- mod + e: Emacs
+- mod + v + m: Neovim
+- mod + alt + f: Firefox
