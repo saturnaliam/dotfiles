@@ -39,19 +39,6 @@
  :g "M-[" #'previous-buffer
 )
 
-(plist-put! +ligatures-extra-symbols
-  :and           nil
-  :or            nil
-  :for           nil
-  :not           nil
-  :true          nil
-  :false         nil
-  :int           nil
-  :float         nil
-  :str           nil
-  :bool          nil
-  :list          nil
-)
 
 (setq catppucin-flavor 'mocha)
 
