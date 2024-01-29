@@ -45,10 +45,8 @@ exclude = [
       "emacs.desktop",
       "java",
       "nnn",
-      "vim",
-      "electron",
-      "lst",
-      "kitty"
+      "vim"
+
 ] # list of regexes for excluded app ids (name of the .desktop file)
 
 # prefix for running commands instead of launching an app (e.g., `:xeyes` to launch xeyes)
