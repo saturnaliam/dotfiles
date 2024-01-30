@@ -37,8 +37,11 @@
 (map!
  :g "M-]" #'next-buffer ;; yea
  :g "M-[" #'previous-buffer
+ :g "M-n" #'project-compile
+ :g "M-RET" #'projectile-run-shell
 )
 
+(setq prettify-symbols-mode nil)
 
 (setq catppucin-flavor 'mocha)
 

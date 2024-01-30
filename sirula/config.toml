@@ -2,7 +2,7 @@
 
 exclusive = true  # push all windows aside or appear above existing windows
 icon_size = 20  # icon size in pixels
-lines = 1  # maximum number of lines of app labels
+lines = 2  # maximum number of lines of app labels
 
 # markup for app labels
 # it seems impossible to theme only parts of a label with CSS
