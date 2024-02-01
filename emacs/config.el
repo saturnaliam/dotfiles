@@ -2,7 +2,7 @@
 
 ;; personal stuff
 (setq confirm-kill-emacs nil) ;; removing annoying "are you sure you wanna leave? :nerd:"
-(setq doom-font (font-spec :family "FiraCode Nerd Font" :size 15)) ;; relationship w/ jetbrains over <3
+(setq doom-font (font-spec :family "FiraCode Nerd Font" :size 14)) ;; relationship w/ jetbrains over <3
 (setq doom-theme 'catppuccin) ;; I LOVE CATPPUCCIN !!
 (setq display-line-numbers-type 'relative) ;; relative line numbers
 (setq-default tab-width 2) ;; sets tabs to 2 spaces
