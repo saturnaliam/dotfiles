@@ -1,7 +1,7 @@
 ### Variables
 exec wl-paste -t text --watch clipman store --no-persist
 default_border none
-font pango: JetBrainsMono Medium 15
+font pango: FiraCode Medium 15
 set $mod Mod4
 set $left h
 set $down j
