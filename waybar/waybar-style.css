@@ -3,10 +3,10 @@
 * {
     /* `otf-font-awesome` is required to be installed for icons */
     border: none;
-    font-family: "FiraCode Nerd Font", monospace;
+    font-family: "FiraCode Nerd Font";
     font-size: 13px;
     color: @text;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 window#waybar {
@@ -14,7 +14,7 @@ window#waybar {
     color: @mantle;
     transition-property: background-color;
     transition-duration: .5s;
-    border-radius: 12px;
+    border-radius: 14px;
     padding: 3px 0px;
 }
 
@@ -54,8 +54,9 @@ button:hover {
 }
 
 #workspaces button {
-    padding: 0 0.4em;
-    background-color: transparent;
+    padding: 0 0.3em;
+    margin-left: 7px;
+    background-color: alpha(@surface2, .1);
     color: #ffffff;
 }
 
