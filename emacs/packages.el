@@ -49,5 +49,4 @@
 ;; ...Or *all* packages (NOT RECOMMENDED; will likely break things)
 ;; (unpin! t)
 (package! catppuccin-theme)
-(package! flyspell :disable t)
-(package! flycheck :disable t)
+(package! cobol-mode)

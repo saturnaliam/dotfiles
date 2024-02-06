@@ -132,7 +132,7 @@
        ;;ess               ; emacs speaks statistics
        ;;factor
        ;;faust             ; dsp, but you get to keep your soul
-       (fortran +ls)           ; in FORTRAN, GOD is REAL (unless declared INTEGER)
+       (fortran +lsp)           ; in FORTRAN, GOD is REAL (unless declared INTEGER)
        ;;fsharp            ; ML stands for Microsoft's Language
        ;;fstar             ; (dependent) types and (monadic) effects and Z3
        ;;gdscript          ; the language you waited for

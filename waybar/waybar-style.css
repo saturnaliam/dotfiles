@@ -10,11 +10,11 @@
 }
 
 window#waybar {
-    background-color: shade(@base, 0.9);
+    background-color: @base;
     color: @mantle;
     transition-property: background-color;
     transition-duration: .5s;
-    border-radius: 14px;
+    border-radius: 16px;
     padding: 3px 0px;
 }
 

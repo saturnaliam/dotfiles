@@ -1,6 +1,6 @@
 # This config file serves as documentation and contains the default values. You are free to omit all values.
 
-exclusive = true  # push all windows aside or appear above existing windows
+exclusive = false  # push all windows aside or appear above existing windows
 icon_size = 20  # icon size in pixels
 lines = 2  # maximum number of lines of app labels
 
@@ -14,7 +14,7 @@ markup_extra = 'font_style="italic" font_size="smaller"'
 
 # anchor window to screen edge
 anchor_left = false
-anchor_right = false 
+anchor_right = false
 anchor_top = false
 anchor_bottom = false
 
@@ -26,7 +26,7 @@ margin_right = 0
 
 # set width or height (-1 is unset)
 width = 750
-height = 450
+height = 500
 
 # specify extra field to be displayed alongside the name (may be empty)
 extra_field = ["id_suffix"] # variants: id, id_suffix, executable, command_line
